@@ -67,6 +67,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="main.js" />
+    <Content Include="role.attacker.js" />
+    <Content Include="role.baseMeleeDefender.js" />
+    <Content Include="role.builder.js" />
+    <Content Include="role.harvester.js" />
+    <Content Include="role.longDistanceMiner.js" />
+    <Content Include="role.ranged.js" />
+    <Content Include="role.supplyUpgrader.js" />
+    <Content Include="role.upgrader.js" />
+    <Content Include="role.waller.js" />
+    <Content Include="ScreepsAutocomplete\.gitignore" />
+    <Content Include="ScreepsAutocomplete\ConstructionSite.js" />
+    <Content Include="ScreepsAutocomplete\Creep.js" />
+    <Content Include="ScreepsAutocomplete\Flag.js" />
+    <Content Include="ScreepsAutocomplete\Game.js" />
+    <Content Include="ScreepsAutocomplete\Global\Constants.js" />
+    <Content Include="ScreepsAutocomplete\Memory.js" />
+    <Content Include="ScreepsAutocomplete\Mineral.js" />
+    <Content Include="ScreepsAutocomplete\Nuke.js" />
+    <Content Include="ScreepsAutocomplete\Order.js" />
+    <Content Include="ScreepsAutocomplete\OwnedStructure.js" />
+    <Content Include="ScreepsAutocomplete\PathFinder.js" />
+    <Content Include="ScreepsAutocomplete\PowerCreep.js" />
+    <Content Include="ScreepsAutocomplete\RawMemory.js" />
+    <Content Include="ScreepsAutocomplete\Resource.js" />
+    <Content Include="ScreepsAutocomplete\Room.js" />
+    <Content Include="ScreepsAutocomplete\RoomObject.js" />
+    <Content Include="ScreepsAutocomplete\RoomPosition.js" />
+    <Content Include="ScreepsAutocomplete\RoomVisual.js" />
+    <Content Include="ScreepsAutocomplete\Source.js" />
+    <Content Include="ScreepsAutocomplete\Structure.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureContainer.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureController.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureExtension.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureExtractor.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureKeeperLair.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureLab.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureLink.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureNuker.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureObserver.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructurePortal.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructurePowerBank.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructurePowerSpawn.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureRampart.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureRoad.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureSpawn.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureStorage.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureTerminal.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureTower.js" />
+    <Content Include="ScreepsAutocomplete\Structures\StructureWall.js" />
+    <Content Include="ScreepsAutocomplete\Tombstone.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="ScreepsAutocomplete\Config\SublimeCodeIntel.json" />
+    <Content Include="ScreepsAutocomplete\package.json" />
+    <Content Include="ScreepsAutocomplete\Readme.md" />
+    <Content Include="ScreepsAutocomplete\TODO.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
